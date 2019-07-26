@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./my.css"/>
+  <title>task manager</title>
+</head>
+<body>
+     <div id="wrapper">
+         <header>
+       <div id="page-banner">
+           <h1 class="title">Task Manager</h1>
+                 
+         <form id="add-task">
+          <input type="text" id ="tasker" placeholder="Add a task..."/>
+          <button class='btn'>Add a Task</button>    
+     </div>
+    </form>
+     </header>
+
+         <div id="task-layout">
+            <h2 class="title">Tasks List</h2>
+            <input type="text" id ="filter-task" placeholder="Filter Task..."/>
+          </div>    
+                  
+             <div>
+           <input type='checkbox' id='hide'/>
+           <label for='hide'>Hide Content</label>
+             </div>
+   <script src='task.js'></script>
+</body>
+</html>
